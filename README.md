@@ -68,10 +68,12 @@ The Transformation Script maps ID.me attibutes to ForgeRock attributes to create
 import static org.forgerock.json.JsonValue.json
 import static org.forgerock.json.JsonValue.object
 
+```
 return json(object(
         field("id", rawProfile.uuid),
         field("displayName", rawProfile.fname),
         field("givenName", rawProfile.fname),
         field("familyName", rawProfile.lname),
         field("email", rawProfile.email),
-        field("username", rawProfile.email)))`
+        field("username", rawProfile.email)))
+```
