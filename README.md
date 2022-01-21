@@ -64,11 +64,11 @@ The Transformation Script maps ID.me attibutes to ForgeRock attributes to create
 * Set `Script Type` to `Social Identity Provider Profile Transformation`
 * Within the script field, beginning at line 9, add the following script. This is a sample script with a baseline set attributes. If you would like to further customize this script with additional attributes, please follow this [User Identity Attributes and Properties Reference
 ](https://backstage.forgerock.com/docs/idcloud/latest/identities/user-identity-properties-attributes-reference.html)
-`import static org.forgerock.json.JsonValue.field
+```
+import static org.forgerock.json.JsonValue.field
 import static org.forgerock.json.JsonValue.json
 import static org.forgerock.json.JsonValue.object
 
-```
 return json(object(
         field("id", rawProfile.uuid),
         field("displayName", rawProfile.fname),
