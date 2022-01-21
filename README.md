@@ -77,3 +77,20 @@ return json(object(
         field("email", rawProfile.email),
         field("username", rawProfile.email)))
 ```
+
+### Configure Transformation Script for the Social Provider Handler Node
+
+* Navigate to `Journeys` > `idme` and click to edit the journey
+* Click `Social Provider Handler Node`
+* On the right-hand side, click the dropdown under `Transformation Script` and select `Normalized Profile to Managed User`
+* `Save` changes 
+
+## Test ID.me Configuration
+
+Copy and paste the `Preview URL` option in the top right-hand corner of the screen and test the ID.me/ForgeRock Integration.
+
+[Click here to see a mockup of the user experience](https://invis.io/5AUHL6DT3PG)
+
+## What's Next?
+
+For assistance or more information, please contact us at [partnersupport@id.me](mailto:partnersupport@id.me)
