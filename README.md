@@ -1,7 +1,6 @@
 # Forgerock/ID.me
 
-ID.me’s Identity Gateway platform provides a SAML 2.0 capable IDP service, which supports standardized,
-signed and encrypted assertions and different attribute bundles. This functionality can be used to enable
+ID.me’s Identity Gateway platform provides an OIDC / OAuth 2.0 capable service. This functionality can be used in conjunction with ForgeRock to enable
 applications to participate in a federated single sign-on (SSO) relationship with the ID.me network of
 credentials.
 
