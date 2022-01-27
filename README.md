@@ -51,7 +51,7 @@ Now that your Journey is created, decide whether users can log in with their loc
 
 * Social authentication trees enforcing social authentication login might look like the following:
 
-__Note: Use the above images as a reference to construct your basic social registration tree. Search for each node using the `Filter Nodes` search bar. Once built, follow the below steps to finish configuring each node. __
+__Note: Use the above images as a reference to construct your basic social registration tree. Search for each node using the `Filter Nodes` search bar. Once built, follow the below steps to finish configuring each node.__
 
 * Check the `Include local authentication` switch in the `Select Identity Provider` portion of the `Page Node`.
 
