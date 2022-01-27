@@ -53,23 +53,25 @@ Now that your Journey is created, decide whether users can log in with their loc
 
 __Note: Use the above images as a reference to construct your basic social registration tree. Search for each node using the `Filter Nodes` search bar. Once built, follow the below steps to finish configuring each node.__
 
-* Check the `Include local authentication` switch in the `Select Identity Provider` portion of the `Page Node`.
+__Click and congifure the `Page Node`:__ 
 
-* Click and configure the `Social Provider Handler Node`:
+Navigate to the `Select Identity Provider` portion of the `Page Node` and check `Include local authentication`
+
+__Click and configure the `Social Provider Handler Node`:__
 
 In the `Transformation Script` field, select `Normalized Profile to Managed User`. This script will transform the normalized identity provider's profile object into an appropriate object that ForgeRock Identity Platform can use.
 
 In `Client Type`, select `BROWSER` when using the ForgeRock Identity Platform UI, or the ForgeRock SDK for JavaScript.
 
-Click and configure the "Required Attributes Present Node" and the "Create Object Node":
+__Click and configure the "Required Attributes Present Node" and the "Create Object Node":__
 
 In the `Identity Resource field`, configure the relevant managed identity resource type, likely `managed/alpha_user`.
 
-* Click and configure the `Attribute Collector Node`: 
+__Click and configure the `Attribute Collector Node`:__
 
 Here we can prompt users to self-assert any additional attributes that the Identity Provider does not provide. For example: `mail`, `givenName`, and `sn` attributes.
 
-* Click `Save`
+__Click `Save`__
 
 
 ### Add ID.me as an Identity Provider
